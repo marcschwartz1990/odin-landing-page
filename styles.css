@@ -1,0 +1,47 @@
+.header, .top-container, .footer {
+    background-color: #1F2937;
+    padding: 0 100px;
+} 
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-container {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    column-gap: 20px;
+}
+
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
